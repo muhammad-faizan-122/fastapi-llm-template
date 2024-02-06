@@ -1,4 +1,4 @@
-# FastAPI with LLM Example
+# Gradio & FastAPI LLM Example
 
 ## Description
 This is a simple FastAPI-based application that utilizes the OpenAI Language Model (LLM) via Langchain. It serves as a demonstration of extracting desired information from input Arabic text using the OpenAI LLM.
