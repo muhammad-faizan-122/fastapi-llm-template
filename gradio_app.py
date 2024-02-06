@@ -40,8 +40,8 @@ def extract_arabic_info(arabic_text):
 
 
 # Create a Gradio interface
-inputs = gr.Textbox(lines=5, label="Enter Arabic text:")
-outputs = gr.Textbox(label="Extracted Information:")
+inputs = gr.Textbox(lines=5, label="Enter Arabic text:", rtl=True)
+outputs = gr.Textbox(label="Extracted Information:", rtl=True)
 
 title = "Arabic Information Extractor"
 description = "Enter Arabic text and get the extracted information about skills and requirements."
