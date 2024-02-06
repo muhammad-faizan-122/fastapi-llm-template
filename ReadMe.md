@@ -16,9 +16,14 @@ This is a simple FastAPI-based application that utilizes the OpenAI Language Mod
     ```
 
 ## Running the Application
+**Using FastApi**
 - Execute the following command to run the application:
     ```
-    uvicorn main:app --reload 
+    uvicorn fastapi_app:app --reload 
     ```
-
+**Using gradio**
+- Execute the following command to run the application:
+    ```
+    python3 gradio_app.py
+    ```
 This command will start the server, allowing you to interact with the FastAPI application.
